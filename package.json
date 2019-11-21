@@ -1,0 +1,36 @@
+{
+  "name": "timetree",
+  "version": "0.1.0",
+  "description": "javascript client for TimeTree API",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "pta test/unit/**/*.js",
+    "dev": "npm run build -- -w"
+  },
+  "keywords": [
+    "TimeTree",
+    "timetreeapp",
+    "browser",
+    "node",
+    "nodejs",
+    "sdk",
+    "calendar",
+    "client",
+    "api"
+  ],
+  "author": "Laurent RENARD",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^12.12.11",
+    "@types/node-fetch": "^2.5.3",
+    "nock": "^11.7.0",
+    "pta": "^0.1.0",
+    "ts-node": "^8.5.2",
+    "typescript": "^3.7.2",
+    "zora": "^3.1.5"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.0"
+  }
+}

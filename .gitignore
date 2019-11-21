@@ -59,3 +59,12 @@ typings/
 
 # next.js build output
 .next
+
+.idea
+
+src/**/*.js
+
+test/**/*.js
+
+src/index.ts
+src/index.js
